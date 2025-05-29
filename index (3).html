@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Murilo Santos - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>PERFIL PESSOAL / PORTFÓLIO</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                <li><a href="#trabalhos" class="nav-link">Trabalhos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+                <li><button id="theme-toggle" class="theme-toggle" aria-label="Alternar tema">
+                    <i class="fas fa-sun"></i>
+                </button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção Sobre Mim -->
+    <section id="sobre" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Olá, sou o Murilo</h1>
+                    <p>Sou desenvolvedor com conhecimento em Python, JavaScript e HTML, focado em criar soluções práticas e funcionais para web e automações. Tenho interesse em desenvolvimento web, scripts para automação de tarefas e projetos que unem lógica de programação com interfaces intuitivas. Busco sempre aprender novas tecnologias e aplicar boas práticas de código nos meus projetos.</p>
+                    
+                    <div class="hero-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Sergipe, Brasil</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-circle"></i>
+                            <span>Disponível para novos projetos!</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagem%20do%20WhatsApp%20de%202025-05-12%20%C3%A0%28s%29%2020.08.15_52bbf563.jpg-xyysW4kFydY0VAeYshsthAjjRHRbtC.jpeg" alt="Foto do Murilo" class="profile-photo">
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <button class="scroll-btn" onclick="scrollToSection('about-details')">
+                    <span>Saiba mais</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Detalhes Sobre -->
+    <section id="about-details" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Imagem%20do%20WhatsApp%20de%202025-05-12%20%C3%A0%28s%29%2020.28.18_5dcd7980.jpg-l4JlKEfw18IRYn0723NTlVJBtw6d9U.jpeg" alt="Murilo em ambiente natural" class="about-photo">
+                </div>
+                <div class="about-text">
+                    <h2>Curioso sobre mim? Aqui está!</h2>
+                    <div class="about-description">
+                        <p>Sou uma pessoa super hiperativa, sempre em movimento e buscando novos desafios. No tempo livre, adoro fazer trilhas e viagens para a natureza — é onde encontro inspiração e energia. Essa paixão pela aventura se reflete também por tecnologias emergentes e passo bastante tempo estudando novas linguagens de programação e tendências do futuro. Sou proativo, gosto de estar sempre em projetos com propósito e estou sempre em busca de algo mais para crescer e contribuir com o que sei.</p>
+                        
+                        <p>Minha jornada na tecnologia começou em 2023, quando tomei uma das decisões mais importantes da minha vida: deixei de seguir a carreira da medicina para mergulhar na programação, um campo que sempre me pareceu. Foi nesse momento que descobri minha vocação — criar, resolver problemas e transformar ideias em código.</p>
+                        
+                        <p>Sou uma pessoa super hiperativa, tenho um energia que encontra equilíbrio em trilhas e viagens para a natureza. Não me agrada manter o foco é o chamado de dia. Estou sempre estudando novas linguagens e tecnologias do futuro, buscando evoluir constantemente. Sou proativo, gosto de estar em movimento, contribuir com o que sei e ir além do esperado em tudo que me envolvo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="habilidades" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Habilidades</h2>
+                <p>As habilidades, ferramentas e tecnologias nas quais sou realmente bom:</p>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="/placeholder.svg?height=64&width=64" alt="JavaScript" class="skill-logo js-logo">
+                    </div>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="/placeholder.svg?height=64&width=64" alt="HTML5" class="skill-logo html-logo">
+                    </div>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-icon">
+                        <img src="/placeholder.svg?height=64&width=64" alt="Python" class="skill-logo python-logo">
+                    </div>
+                    <span>Python</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Trabalhos/Portfólio -->
+    <section id="trabalhos" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Projetos</h2>
+                <p>Alguns projetos que faço parte!</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Projetos da Unidade Web Frontend -->
+                <div class="project-section">
+                    <h3 class="project-section-title">Projetos da Unidade - Web Frontend</h3>
+                    <p class="project-section-description">Projetos desenvolvidos ao decorrer da unidade da matéria de Web Frontend</p>
+                    
+                    <div class="unit-projects">
+                        <div class="project-card small">
+                            <div class="project-info">
+                                <h4>Lâmpada Interativa</h4>
+                                <p class="project-description">Projeto em JavaScript que simula uma lâmpada que acende e apaga ao clicar, demonstrando manipulação do DOM e eventos.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card small">
+                            <div class="project-info">
+                                <h4>Calculadora</h4>
+                                <p class="project-description">Calculadora funcional desenvolvida com HTML, CSS e JavaScript, incluindo operações básicas e interface responsiva.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">JavaScript</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="project-card small">
+                            <div class="project-info">
+                                <h4>Página Estática Temática</h4>
+                                <p class="project-description">Página estática desenvolvida sobre um tema sorteado, aplicando conceitos de design responsivo e boas práticas de HTML/CSS.</p>
+                                <div class="project-tech">
+                                    <span class="tech-tag">HTML</span>
+                                    <span class="tech-tag">CSS</span>
+                                    <span class="tech-tag">Design Responsivo</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projetos Principais -->
+                <div class="project-section">
+                    <h3 class="project-section-title">Projetos Principais</h3>
+                    
+                    <div class="project-card">
+                        <div class="project-logo">
+                            <img src="/placeholder.svg?height=80&width=200" alt="Porto Digital" class="project-image">
+                        </div>
+                        <div class="project-info">
+                            <h3>Porto Digital</h3>
+                            <p>Universidade Tiradentes</p>
+                            <p class="project-description">Com o Porto Digital da Unit, criamos um protótipo de mídia facilitada do em aplicativo para ajudar pessoas com transtornos alimentares.</p>
+                            <a href="https://www.figma.com/proto/C5A4VkZUtDHGvvidOITAja?node-id=0-1&t=xZ73tX5v5bDsoNqG-6" target="_blank" rel="noopener noreferrer" class="project-link">Ver Protótipo</a>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-logo">
+                            <img src="/placeholder.svg?height=80&width=200" alt="Unit" class="project-image unit-logo">
+                        </div>
+                        <div class="project-info">
+                            <h3>Residência em Software</h3>
+                            <p>Universidade Tiradentes</p>
+                            <p class="project-description">Na matéria de Residência estamos ajudando a empresa Fundação de Saúde Parreiras Horta - PSH a refazer o site deles.</p>
+                            <a href="https://fsph.se.gov.br/team.html" target="_blank" rel="noopener noreferrer" class="project-link">Ver Projeto</a>
+                            <div class="project-tags">
+                                <span class="tag">plataformas</span>
+                                <span class="tag">cyber/Website</span>
+                                <span class="tag">SOC</span>
+                                <span class="tag">Projeto para Universidade Tiradentes</span>
+                                <span class="tag">Residência de Software</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-logo">
+                            <img src="/placeholder.svg?height=80&width=200" alt="Portfólio Figma" class="project-image portfolio-logo">
+                        </div>
+                        <div class="project-info">
+                            <h3>Portfólio Pessoal - Design</h3>
+                            <p>Projeto Pessoal</p>
+                            <p class="project-description">Design completo do meu portfólio pessoal criado no Figma, incluindo versões clara e escura, com foco em UX/UI moderno.</p>
+                            <a href="https://www.figma.com/design/Lh6fAnl1faa9QK5CRvAXf0/Potf%C3%B3lio-Pessoal-2025?m=auto&t=xZ73tX5v5bDsoNqG-6" target="_blank" rel="noopener noreferrer" class="project-link">Ver Design</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact-section">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Campo de contato</h2>
+                <p>Algumas formas de me contatar!</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Nome: João Murilo Santos Leite</h3>
+                        <div class="contact-details">
+                            <p><strong>Email:</strong> joaomurilosantosleite16@gmail.com</p>
+                            <p><strong>Instagram:</strong> @murilosantos</p>
+                            <p><strong>GitHub:</strong> murilosantos</p>
+                            <p><strong>LinkedIn:</strong> <a href="#" class="contact-link">[DI] João Murilo | LinkedIn</a></p>
+                        </div>
+                    </div>
+                    
+                    <!-- Mapa -->
+                    <div class="map-container">
+                        <div id="map" class="map"></div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <h3>Formulário de Contato</h3>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="nome">Nome *</label>
+                            <input type="text" id="nome" name="nome" required>
+                            <span class="error-message" id="nome-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">E-mail *</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                            <span class="error-message" id="mensagem-error"></span>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="contact-footer">
+                <div class="contact-direct">
+                    <h3>Clique para contato</h3>
+                    <div class="contact-links">
+                        <a href="mailto:joaomurilosantosleite16@gmail.com" class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>joaomurilosantosleite16@gmail.com</span>
+                        </a>
+                        <a href="tel:+5579998851031" class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+55 79 998851031</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Criado por João Murilo Santos Leite</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
